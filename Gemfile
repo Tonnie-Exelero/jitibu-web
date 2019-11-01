@@ -21,11 +21,11 @@ gem 'jbuilder', '2.9.1'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
-gem 'pg', '1.1.4 ruby x64-mingw32 x86-mingw32'
+gem 'pg', '1.1.4'
 gem 'uglifier', '4.2.0'
 gem 'coffee-rails', '5.0.0'
 gem 'jquery-rails', '4.3.5'
-gem 'unicorn', '5.5.1'
+# gem 'unicorn', '5.5.1'
 gem 'will_paginate', '3.2.1'
 gem 'will_paginate-bootstrap', '1.0.2'
 gem 'devise', '4.7.1'
@@ -59,7 +59,7 @@ end
 # Gems for Production environment
 group :production do
   # Serve static assets from Heroku
-  gem 'rails_12factor', '12'
+  gem 'rails_12factor'
 end
 
 group :test do
